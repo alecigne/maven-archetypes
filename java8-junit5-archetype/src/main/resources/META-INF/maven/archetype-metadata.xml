@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="basic">
+
+	<fileSets>
+		<fileSet filtered="true" package="false" encoding="UTF-8">
+			<directory>src/main/java</directory>
+			<includes>
+				<include>**/*.java</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="true" package="false" encoding="UTF-8">
+			<directory>src/test/java</directory>
+			<includes>
+				<include>**/*.java</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false" package="false" encoding="UTF-8">
+			<directory></directory>
+			<includes>
+				<include>.gitignore</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="true" package="false" encoding="UTF-8">
+			<directory></directory>
+			<includes>
+				<include>README.org</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+
+</archetype-descriptor>

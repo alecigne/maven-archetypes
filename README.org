@@ -1,0 +1,6 @@
+#+TITLE: Maven archetypes
+
+Some simple Maven archetypes I use often. They include my usual
+=.gitignore= file for Java and a README stub.
+
+See individual archetypes for instructions.

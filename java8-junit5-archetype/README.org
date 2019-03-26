@@ -1,0 +1,20 @@
+#+TITLE: java8-junit5-archetype
+
+* Installation
+
+#+begin_src sh
+  cd java8-junit5-archetype
+  mvn clean install
+#+end_src
+
+* Creating a project
+
+#+begin_src sh
+  mvn archetype:generate \
+      -DinteractiveMode=false \
+      -DarchetypeGroupId=net.lecigne.maven-archetypes \
+      -DarchetypeArtifactId=java8-junit5-archetype \
+      -DarchetypeVersion=1.0-SNAPSHOT \
+      -DgroupId=[groupId] \
+      -DartifactId=[artifactId]
+#+end_src
