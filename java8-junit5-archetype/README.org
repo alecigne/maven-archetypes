@@ -16,5 +16,6 @@
       -DarchetypeArtifactId=java8-junit5-archetype \
       -DarchetypeVersion=1.0-SNAPSHOT \
       -DgroupId=[groupId] \
-      -DartifactId=[artifactId]
+      -DartifactId=[artifactId] \
+      -Dpackage=[package]
 #+end_src
