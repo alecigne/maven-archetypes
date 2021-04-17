@@ -1,0 +1,3 @@
+#+TITLE: ${artifactId}
+
+README for the ${artifactId} project.

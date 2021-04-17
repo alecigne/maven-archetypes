@@ -1,0 +1,26 @@
+#+TITLE: java11-junit5-archetype
+
+* Installation
+
+#+begin_src sh
+  cd java11-junit5-archetype
+  mvn clean install
+#+end_src
+
+* Creating a project
+
+#+begin_src sh
+  mvn archetype:generate \
+      -DinteractiveMode=false \
+      -DarchetypeGroupId=net.lecigne.maven-archetypes \
+      -DarchetypeArtifactId=java11-junit5-archetype \
+      -DarchetypeVersion=1.0-SNAPSHOT \
+      -DgroupId=[groupId] \
+      -DartifactId=[artifactId] \
+      -Dpackage=[package]
+#+end_src
+
+* Content
+
+JUnit 5 with parameterized tests and AssertJ. Useful for basic Java
+projects such as LeetCode projects, etc.
